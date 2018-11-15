@@ -8,4 +8,7 @@ setup(name='algebra',
       author='Fanying Tang',
       author_email='fanyingtang@gmail.com',
       url='',
+      entry_points = {
+        'console_scripts': ['algebra-product=algebra.cli:main'],
+    }
      )
